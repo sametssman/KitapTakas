@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.giriskayit.KayitFragment">
+
+
+    <TextView
+        android:id="@+id/textBaslik"
+        android:layout_width="296dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="110dp"
+        android:text="Kitap Takas"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextKullaniciadi"
+        android:layout_width="317dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="E-posta"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBaslik" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="317dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBaslik" />
+
+    <EditText
+        android:id="@+id/editTextIsim"
+        android:layout_width="317dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="İsim"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBaslik" />
+
+    <EditText
+        android:id="@+id/editTextIsimSoy"
+        android:layout_width="317dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:hint="Soyisim"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBaslik" />
+
+    <EditText
+        android:id="@+id/editTextYas"
+        android:layout_width="317dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="Yaş"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textBaslik" />
+
+    <Button
+        android:id="@+id/buttonKayitTamam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="kayitTamam"
+        android:text="kaydol"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextYas" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

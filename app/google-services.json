@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "496719004234",
+    "project_id": "kitaptakas-51adb",
+    "storage_bucket": "kitaptakas-51adb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:496719004234:android:671d3e97a783caf73d5cb3",
+        "android_client_info": {
+          "package_name": "com.sametsisman.kitaptakas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "496719004234-odqar0eb5ie89qs0ce2odo4v7ut6kn8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVjdJCl0O1FIk-9ni5uIuKTlyOc1jIryQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "496719004234-odqar0eb5ie89qs0ce2odo4v7ut6kn8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
